@@ -4,3 +4,9 @@ FROM
     `avian-muse-146118.customer_data.customer_purchase`
 WHERE
     product = 'couch'
+
+
+SELECT 
+    COALESCE(product, product_code) AS Product_info
+FROM 
+    `avian-muse-146118.customer_data.customer_purchase`
