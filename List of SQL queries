@@ -10,3 +10,19 @@ SELECT
     COALESCE(product, product_code) AS Product_info
 FROM 
     `avian-muse-146118.customer_data.customer_purchase`
+    
+    SELECT
+employee_id,
+SUBSTR(postal_code,1,3) AS new_postal_code
+FROM
+employee
+ORDER BY
+postal_code
+
+
+SELECT 
+*
+FROM
+customer
+WHERE
+LENGTH(city) > 9
