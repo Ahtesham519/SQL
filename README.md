@@ -2,7 +2,7 @@
 Google Data Analytics SQL
 Verfication of the data 
 Every time check all below requirement to clean data.
-Sources of errors: Did you use the right tools and functions to find the source of the errors in your dataset?
+find the source of the errors in your dataset?
 
 Null data: Did you search for NULLs using conditional formatting and filters?
 
