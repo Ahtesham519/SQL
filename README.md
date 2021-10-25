@@ -1,6 +1,7 @@
 # SQL
 Google Data Analytics SQL
-Verfication of the data 
+Verfication of the data and finding Errors from the source
+
 Every time check all below requirement to clean data.
 Things to find the source of the errors in your dataset?
 
