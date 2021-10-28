@@ -26,3 +26,11 @@ FROM
 customer
 WHERE
 LENGTH(city) > 9
+
+SELECT 
+* 
+
+FROM 
+    `avian-muse-146118.movie_data.movies`
+WHERE 
+    Genre = 'Comedy'
