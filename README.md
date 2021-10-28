@@ -1,5 +1,4 @@
-# SQL
-Google Data Analytics SQL
+# Google Data Analytics SQL 
 Verfication of the data and finding Errors from the source
 
 Every time check all below requirement to clean data.
