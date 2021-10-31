@@ -37,3 +37,13 @@ WHERE
 
 SORT(RANGE,2,TRUE)
     Genre = 'Comedy'
+
+
+SELECT 
+* 
+FROM 
+    `avian-muse-146118.movie_data.movies`
+
+WHERE  Genre = 'Comedy'
+
+ORDER BY Release_Date DESC 
