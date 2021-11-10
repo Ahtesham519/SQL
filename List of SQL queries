@@ -76,3 +76,16 @@ GROUP BY
 ORDER BY
 num_trips DESC
 LIMIT 10
+
+
+SELECT 
+    employees.name AS employee_name,
+    employees_name AS employee_role,
+    departments.name AS department_name
+
+FROM 
+    `avian-muse-146118.employee_data.employees` AS employees
+INNER JOIN 
+    `avian-muse-146118.employee_data.departments` AS department
+    ON
+    employees.department = department.departement
