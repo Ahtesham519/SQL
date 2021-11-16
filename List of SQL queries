@@ -89,3 +89,14 @@ INNER JOIN
     `avian-muse-146118.employee_data.departments` AS department
     ON
     employees.department = department.departement
+    
+    
+   SELECT 
+    warehouse.state AS state,
+    COUNT(DISTINCT  warehouse.state) AS num_state
+FROM 
+    `avian-muse-146118.warehouse_orders.orders` AS orders
+FULL JOIN 
+    `avian-muse-146118.warehouse_orders.warehouse` warehouse ON orders.warehouse_id = warehouse.warehouse_id
+GROUP BY 
+    warehouse.state
